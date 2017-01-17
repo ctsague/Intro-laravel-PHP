@@ -19,12 +19,13 @@ Route::post('twoots', function(){
        'text' => request()->text
    ]);
 
-   return redirect()->to('');
+   return redirect()->to('/');
 });
 
 Route::delete('twoots/{id}', function($id){
 //    Trouver le twoot, puis le supprimer
-//    Twoot::____($id)->______();
+	//Twoot::find($id);
+	Twoot::destroy($id);
 
     return redirect()->to('/');
 });

@@ -44,6 +44,7 @@
                 </div>
                 <div class="card-footer text-muted">
                     Créé il y a pas longtemps
+                   <!--  difforHumans -->
                 </div>
             </div>
         @endforeach
